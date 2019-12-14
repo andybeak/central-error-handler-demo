@@ -1,0 +1,21 @@
+{
+    "name": "andybeak/central-error-handler",
+    "description": "This project demonstrates creating a central error handler in PHP7",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Beak",
+            "email": "andy.beak@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "rollbar/rollbar": "~1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
